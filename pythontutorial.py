@@ -8,13 +8,13 @@
 
 
 
-def start(nice=0,mean=0,name=""):
+def start(nice=0,mean=0,name="""):
     # get user's name
     name = describe_game(name)
     nice,mean,name = nice_mean(nice,mean,name)
 
 def describe_game(name):
-    ""
+""
 check if this is a new game or not.
 If it is new, get the users name.
 If it is not a new game, thank the player for
