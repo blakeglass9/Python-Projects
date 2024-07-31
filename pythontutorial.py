@@ -1,3 +1,4 @@
+"""
 #
 #Python: 3.11.7
 #
@@ -5,7 +6,7 @@
 #
 #Purpose: The Tech Acadrmy - Python Course, Creating our first program together.
 #
-
+"""
 
 
 def start(nice=0,mean=0,name="""):
