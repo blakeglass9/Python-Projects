@@ -7,16 +7,14 @@
 #Purpose: The Tech Acadrmy - Python Course, Creating our first program together.
 #
 """
-
-
 def start(nice=0,mean=0,name="""):
-    # get user's name
-    name = describe_game(name)
-    nice,mean,name = nice_mean(nice,mean,name)
+# get user's name
+name = describe_game(name)
+nice,mean,name = nice_mean(nice,mean,name)
 
 def describe_game(name):
 """):
-    check if this is a new game or not.
+check if this is a new game or not.
 If it is new, get the users name.
 If it is not a new game, thank the player for
 playing again and continue with the game
@@ -24,17 +22,17 @@ playing again and continue with the game
 #meaning, if we do not already have this user's name,
 # then they are a new player and we need to get their name
 if name != "":
-    print("\nThank you for playing again, ()!".format(name))
+print("\nThank you for playing again, ()!".format(name))
 else:
-    stop = True
-    while stop:
-        if name == "":
-            name = input("\nWhat is your name? \n>>> ").capitalize()
-            if name != "":
-                print("\nWelcome, ()!".format(name))
-                print("\nIn this game, you will be greeted \nby several different people. \nYou can choose to be nice or mean")
-                print("but at the end of the game your fate \nwill be sealed by your actions.")
-                stop = False
+stop = True
+while stop:
+if name == "":
+name = input("\nWhat is your name? \n>>> ").capitalize()
+if name != "":
+print("\nWelcome, ()!".format(name))
+print("\nIn this game, you will be greeted \nby several different people. \nYou can choose to be nice or mean")
+print("but at the end of the game your fate \nwill be sealed by your actions.")
+stop = False
 return name
 
 
