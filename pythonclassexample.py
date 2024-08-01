@@ -48,7 +48,6 @@ class Car(Vehicle):
 class Truck(Vehicle):
     """
     This class 'Truck' inherits from the 'Vehicle' class.
-    It adds additional attributes specific to trucks.
     """
     def __init__(self, make, model, year, cargo_capacity, is_diesel):
         """
