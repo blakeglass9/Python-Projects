@@ -11,7 +11,7 @@ Tested OS:      This code was written and tested to work with Windows 10.
 
 from tkinter import *
 import tkinter as tk
-pip install phonebook_gui
+
 
 # Be sure to import our other modules
 # so we can have access to them
